@@ -1,3 +1,12 @@
+.fishList{
+    border: solid black 2px;
+    display: flex;
+    flex-wrap:wrap;
+    text-align: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
 .logo{
     text-align: center;
     margin: auto;
@@ -28,15 +37,6 @@
 body{
     margin: 0 25px;
     background-color: #6B7F82;
-}
-
-.fishList{
-    border: solid black 2px;
-    display: flex;
-    flex-wrap:wrap;
-    text-align: center;
-    justify-content: space-around;
-    padding: 5px;
 }
 
 .tankTips, .quotes, .locations{

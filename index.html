@@ -18,39 +18,16 @@
     <main class="content">
         <!-- To be on the left side of the page -->
         <div class="column column--left">
+
             <!-- List of fish harvested -->
             <article class="fishList">
-                <section class="fish">
-                    <div class="fish__image"><img src="./images/goldfish.jpg" alt="Goldfish"></div>  
-                    <div class="fish__species">Goldfish</div>
-                    <div class="fish__name">Flippers</div>
-                    <div class="fish__length">1-2 inches</div>
-                    <div class="fish__location">Backyard Pond</div>
-                    <div class="fish__diet">Cooked Rice</div>
-                </section>
-                <section class="fish">
-                    <div class="fish__image"><img src="./images/blueTang.jpg" alt="Blue Tang Fish"></div>  
-                    <div class="fish__species">Blue Tang</div>
-                    <div class="fish__name">Dory</div>
-                    <div class="fish__length">9.8-12 inches</div>
-                    <div class="fish__location">Amazon Reef</div>
-                    <div class="fish__diet">Filamentous Algae</div>
-                </section>
-                <section class="fish">
-                    <div class="fish__image"><img src="./images/clownLoach.jpg" alt="Clown Loach Fish"></div>  
-                    <div class="fish__species">Clown Loach</div>
-                    <div class="fish__name">Stripes</div>
-                    <div class="fish__length">5.9-7.9 inches</div>
-                    <div class="fish__location">Sumatra</div>
-                    <div class="fish__diet">Flake Food</div>
-                </section>
+               <!-- This will be automatically filled out by JavaScript -->
             </article>
-
             <!-- Quotes -->
             <article class="quotes">
                 <section class="quote">
                     <div class="quote__text">
-                        "The best way to obvserve a fish is to become a fish."
+                        "The best way to observe a fish is to become a fish."
                     </div>
                     <div class="quote__author">
                         <strong>-Jacques Cousteau, </strong>
@@ -179,5 +156,8 @@
             </aside>
         </div>
     </main>
+
+    <!-- Can also go in the <head> but it is down here in order to allow the page to load first instead of being slowed down PLUS this will make sure DOM JS works -->
+    <script type="module" src="scripts/main.js"></script>
 </body>
 </html>
