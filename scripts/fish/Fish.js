@@ -1,7 +1,7 @@
 /**
  *  Fish which renders individual fish objects as HTML
  */
-export const Fish = (fish) => {
+export const fishHTML = (fish) => {
     // Returns a string of HTML
     return `
         <section class="fish card">

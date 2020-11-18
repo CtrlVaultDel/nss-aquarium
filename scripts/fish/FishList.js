@@ -7,9 +7,9 @@
 import { useFish } from "./fishDataProvider.js";
 
 // Bring in the fish method that will allow us to make a function that puts HTML onto the page when we call it
-import { Fish } from "./Fish.js";
+import { fishHTML } from "./fish.js";
 
-export const FishList = () => { 
+export const fishList = () => { 
 
     // Get a reference to the `<article class="content">` element
     const contentElement = document.querySelector(".fishList")
@@ -18,9 +18,9 @@ export const FishList = () => {
     for (const fishObject of allTheFish){
 
         //The right side of the assignment is always evaluated first
-        const fishHTML = Fish(fishObject);
+        const fishToPage = fishHTML(fishObject);
 
         // Add to the existing HTML in the content element
-        contentElement.innerHTML += fishHTML
+        contentElement.innerHTML += fishToPage
     }
 }
