@@ -1,4 +1,4 @@
-const tipsCollection=[
+const tipCollection=[
     "Maintain your filtration equipment.",
     "Perform weekly water testing.",
     "Perform regular water changes.",
@@ -10,5 +10,5 @@ const tipsCollection=[
 
 // Returns a copy of tipCollection (An array full of tips)
 export const tipsArray = () =>{
-    return tipsCollection.slice();
+    return tipCollection.slice();
 }

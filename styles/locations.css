@@ -1,0 +1,18 @@
+.location{
+    margin: 0 10px 10px 10px;
+}
+
+.locations{
+    border: solid black 2px;
+}
+
+.location__img__src{
+    max-width: 630px;
+    border: solid black 2px;
+    border-radius: 5%;
+}
+
+.location__desc__text{
+    font-size: large;
+}
+

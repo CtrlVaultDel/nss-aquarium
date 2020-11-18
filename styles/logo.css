@@ -1,0 +1,9 @@
+.logo{
+    margin-top: 23px;
+}
+
+.logo__image{
+    max-height: 7em;
+    border-radius: 90%;
+    opacity: 85%;
+}

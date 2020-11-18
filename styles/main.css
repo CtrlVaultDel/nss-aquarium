@@ -1,56 +1,18 @@
+@import "fish.css";
+@import "locations.css";
+@import "tips.css";
+@import "quotes.css";
+@import "logo.css";
+
 body{
-    margin: 0 25px;
+    max-width: 90%;
+    margin: auto;
     background-color: #6B7F82;
-}
-
-.fishList{
-    border: solid black 2px;
-    display: flex;
-    flex-wrap:wrap;
-    text-align: center;
-    justify-content: space-around;
-    padding: 5px;
-}
-
-.logo{
-    margin-top: 23px;
-}
-
-.logo__image{
-    max-height: 7em;
-    border-radius: 90%;
-    opacity: 85%;
-}
-
-.fish__image{
-    width: 180px;
-    height: 128px;
-    border-radius: 50%;
 }
 
 .title__text{
     margin-left: 30px;
     font-size: 4em;
-}
-
-.locations img{
-    max-width: 500px;
-    max-height: auto;
-    border: solid black 2px;
-    border-radius: 5%;
-}
-
-.tankTips, .quotes, .locations{
-    border: solid black 2px;
-}
-
-.quote{
-    padding: 10px;
-    text-align: left;
-}
-
-.quote__author{
-    padding-top: 5px;
 }
 
 .flexedHeader{
@@ -80,19 +42,4 @@ body{
     background-color: #8EB8E5;
 }
 
-.location{
-    margin: 0 10px 10px 10px;
-}
 
-.tipsHeader__text{
-    margin: 5px;
-    text-align: center;
-}
-
-.tip__text{
-    font-size: large;
-    margin: 5px 10px 20px 10px;
-    border: solid black 1px;
-    padding: 5px;
-    background-color: #7C99B4;
-}

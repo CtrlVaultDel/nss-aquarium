@@ -1,0 +1,13 @@
+.quotes{
+    border: solid black 2px;
+}
+
+.quote{
+    padding: 10px;
+    text-align: left;
+}
+
+.quote__author{
+    padding-top: 5px;
+}
+
