@@ -7,7 +7,7 @@ const fishCollection = [
         species: "Goldfish",
         diet: "Cooked Rice",
         location: "Backyard Pond",
-        length: "1-2 inches"
+        size: 2
     },
     {
         image: "blueTang.jpg",
@@ -15,7 +15,7 @@ const fishCollection = [
         species: "Blue Tang",
         diet: "Filamentous Algae",
         location: "Amazon Reef",
-        length: "9.8-12 inches"
+        size: 5
     },
     {
         image: "clownLoach.jpg",
@@ -23,7 +23,7 @@ const fishCollection = [
         species: "Clown Loach",
         diet: "Flake Food",
         location: "Sumatra",
-        length: "5.9-7.9 inches"
+        size: 3
     }
 ]
 
