@@ -5,14 +5,8 @@ export const locationList = () => {
 
     // Get a reference to the `<article class="content">` element
     const contentElement = document.querySelector(".locations")
-    const allTheLocations = locationArray()
+    const locations = locationArray()
 
-    for (const location of allTheLocations){
-
-        //The right side of the assignment is always evaluated first
-        const locationToPage = locationHTML(location);
-
-        // Add to the existing HTML in the content element
-        contentElement.innerHTML += locationToPage;
-    }
+    // Returns a new array of all locations as a string and applies it to the DOM.
+    contentElement.innerHTML = locations.map(location => locationHTML(location)).join("")
 }

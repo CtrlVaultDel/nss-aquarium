@@ -15,7 +15,7 @@ const fishCollection = [
         species: "Blue Tang",
         diet: "Filamentous Algae",
         location: "Amazon Reef",
-        size: 5
+        size: 15
     },
     {
         image: "clownLoach.jpg",
@@ -23,7 +23,7 @@ const fishCollection = [
         species: "Clown Loach",
         diet: "Flake Food",
         location: "Sumatra",
-        size: 3
+        size: 5
     }
 ]
 

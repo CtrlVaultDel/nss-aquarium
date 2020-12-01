@@ -37,13 +37,6 @@ export const fishList = () => {
     pushArrays(theSoldiers);
     pushArrays(theCitizens);
     
-    // For each fish object inside of finalFishList, convert it into HTML strings (See fish.js)
-    for (const fishObject of finalFishList){
-
-        //The right side of the assignment is always evaluated first
-        const fishToPage = fishHTML(fishObject);
-
-        // Add to the existing HTML in the content element
-        contentElement.innerHTML += fishToPage
-    }
+    // Returns a new array of all locations as a string and applies it to the DOM.
+    contentElement.innerHTML = finalFishList.map(fish => fishHTML(fish)).join("");
 }

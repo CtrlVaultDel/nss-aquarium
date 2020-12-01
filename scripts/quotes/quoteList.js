@@ -3,16 +3,10 @@ import { quoteHTML } from "./quote.js";
 
 export const quoteList = () => { 
 
-    // Get a reference to the `<article class="content">` element
+    // // Get a reference to the `<article class="content">` element
     const contentElement = document.querySelector(".quotes")
-    const allTheQuotes = quoteArray()
+    const quotes = quoteArray()
 
-    for (const quote of allTheQuotes){
-
-        //The right side of the assignment is always evaluated first
-        const quoteToPage = quoteHTML(quote);
-
-        // Add to the existing HTML in the content element
-        contentElement.innerHTML += quoteToPage;
-    }
+    // Returns a new array of all quotes as a string and applies it to the DOM.
+    contentElement.innerHTML = quotes.map(quote => quoteHTML(quote)).join("");
 }
